@@ -5,7 +5,7 @@
  * @val: arguments
  * Return: counter
  */
-int print_s(val_list val)
+int print_s(va_list val)
 {
 	char *str = va_arg(val, char *);
 	int count = 0;

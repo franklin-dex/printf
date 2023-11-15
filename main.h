@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <limits.h>
 #include <stdio.h>
 #include <stdarg.h>
@@ -23,6 +24,7 @@ typedef struct format
 
 int *_strcpy(char *dest, char *src);
 int print_pointer(va_list val);
+int print_number(int num);
 int print_unsigned(va_list args);
 int print_hex_extra(unsigned long int num);
 int _strlenc(const char *s);
