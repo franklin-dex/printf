@@ -5,7 +5,7 @@
  * @val: arguments
  * Return: Always 1
  */
-int printf_bin(va_list val)
+int print_bin(va_list val)
 {
 	int flag = 0;
 	int cont = 0;
