@@ -22,6 +22,7 @@ typedef struct format
 	int (*function)();
 } convert;
 
+int _printf(const char *format, ...);
 int *_strcpy(char *dest, char *src);
 int print_pointer(va_list val);
 int print_number(int num);
