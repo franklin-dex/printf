@@ -45,6 +45,5 @@ int print_37(void);
 int print_c(va_list val);
 int print_s(va_list val);
 int _putchar(char c);
-int _printf(const char *format, ...);
 
 #endif
